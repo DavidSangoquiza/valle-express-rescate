@@ -1,0 +1,5 @@
+# Los scripts .sh deben tener finales de línea LF o PostgreSQL no los ejecuta dentro del contenedor
+*.sh text eol=lf
+*.js text eol=lf
+*.sql text eol=lf
+*.txt text eol=lf
